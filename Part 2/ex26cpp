@@ -1,0 +1,23 @@
+#include <iostream>
+
+int main()
+{
+
+    int x;
+    int y;
+    std::cin >> x >> y;
+    char key;
+    std::cin >> key;
+    if(key == 'w'){
+        std::cout << x << " " << y + 1;
+    }
+    else if(key == 's'){
+        std::cout << x << " " << y - 1;
+    }
+    else if (key == 'a')
+        std::cout << x - 1 << " "  << y;
+    else if (key == 'd')
+        std::cout << x + 1 << " " << y;
+    else
+        std::cout << x << " " << y;
+}
