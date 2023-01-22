@@ -8,6 +8,10 @@ int main()
     int a;
     int b;
     std::cin >> a >> b;
+<<<<<<< Updated upstream
+=======
+    std::cin  >> b;
+>>>>>>> Stashed changes
 
     std::cout << a * b;
 }
