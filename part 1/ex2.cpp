@@ -13,6 +13,8 @@ int main() {
     a = -10;
     b =  26;
     std::cout << a - b;
+    std::cout << a - b;
+    
 }
 
 
